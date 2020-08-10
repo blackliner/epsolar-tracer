@@ -73,7 +73,7 @@ packagetest:archlinux:
     - cd archlinux
     - pacman -U python-epsolar-tracer*.pkg.tar.xz --noconfirm
   tags:
-    - virtualbox-archlinux
+    - archlinux
   dependencies:
     - package:archlinux
   only:
