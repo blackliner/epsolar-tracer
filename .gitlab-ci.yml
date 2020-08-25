@@ -71,6 +71,7 @@ packagetest:archlinux:
   stage: packagetest
   script:
     - cd archlinux
+    - pacman -Sy
     - pacman -U python-epsolar-tracer*.pkg.tar.zst --noconfirm
   tags:
     - archlinux
