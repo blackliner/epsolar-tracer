@@ -29,6 +29,7 @@ setup(
     version='0.0.16',
     description='Tools for EPsolar Tracer A and BN solar charge controller',
     long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     author='Adam Schubert',
     author_email='adam.schubert@sg1-game.net',
     url='https://github.com/Salamek/epsolar-tracer',
